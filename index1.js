@@ -25,8 +25,8 @@ window.onload = () => {
 }
 
 function reshuffle(){
-    // tilesOrder = ["5","1","7","6","8","3","9","4","2"];
-    tilesOrder = ["2","1","3","4","5","6","7","8","9"];
+    tilesOrder = ["5","1","7","6","8","3","9","4","2"];
+//     tilesOrder = ["2","1","3","4","5","6","7","8","9"];
     
     document.getElementById("board").replaceChildren();
     for (let r = 0; r < rows; r++) {
