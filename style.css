@@ -1,0 +1,38 @@
+body{
+    /* font-family: 'Courier New', Courier, monospace; */
+    text-align: center;
+    color: rgb(248, 248, 248);
+    background-color: black;
+    /* align-items: center;
+    margin: auto; */
+}
+#main{
+    height: 40vh;
+    width: auto;
+    margin: 5vh auto;
+}
+a{
+    text-decoration: none;
+    color: rgb(183, 244, 255);
+}
+#category{
+    display: flex;
+    /* align-items: center;
+    margin: auto; */
+    /* flex-wrap: wrap; */
+}
+#easy{
+    width: 33%;
+}
+#medium{
+    /* display:block; */
+    width: 33%;
+}
+#hard{
+    width: 33%;
+
+}
+#category img{
+    height: 160px;
+    width: auto;
+}
