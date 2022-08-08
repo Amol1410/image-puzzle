@@ -10,13 +10,36 @@
 </head>
 <body>
     <a href="./">Homepage</a>
-    <div id="title"><h1>Avengers</h1></div>
-    <div id="board"></div>
-    <div id="finalResult"><h2 id="resultHeading"></h2></div>
-    <h2>Turns : <span id="turns">0</span></h2>
-    <div id="buttons">
-        <h2 id="start" onclick="reshuffle()">Start</h2>
-        <h2 id="reset" onclick="reStart()">Reset</h2>
+    <div id="title"><h1>AVENGERS</h1></div>
+    <div id="main">
+        <div id="main1">
+            <div id="board"></div>
+            <div id="finalResult"><h2 id="resultHeading"></h2></div>
+            <h2>Turns : <span id="turns">0</span></h2>
+            <div id="buttons">
+                <h2 id="start" onmousedown="reshuffle()">Start</h2>
+                <h2 id="reset" onmousedown="reStart()">Reset</h2>
+            </div>
+            <div id="js_timer">
+                <div id="timer">
+        
+                </div>
+            </div>
+        </div>
+        <div id="main2">
+            <div class="rules">
+                <h2><u>Rules</u></h2>
+                <p>1. Click on START to begin.</p>
+                <p>2. If you wish to start again, click RESTART.</p>
+                <p>3. Only adjacent slides can be swapped.</p>
+                <p>4. Player who completes in MINIMUM swaps WINS the game.</p>
+            </div>
+            <br>
+            <h3 onmousedown="showHint()">Hint</h3>
+            <div id="hint-img">
+
+            </div>
+        </div>
     </div>
 </body>
 </html>
