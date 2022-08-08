@@ -6,6 +6,19 @@ body{
     align-items: center;
     margin: auto;
 }
+#main{
+    display: flex;
+    margin: 40px auto;
+}
+#main1{
+    width: 70%;
+}
+#main2{
+    width: 20%;
+}
+#main2 img{
+    width: 70%;
+}
 a{
     text-decoration: none;
     color: rgb(183, 244, 255);
