@@ -140,3 +140,8 @@ function dragEnd() {
 
     }
 }
+function showHint(){
+    let tile = document.createElement("img");
+    tile.src = "./tiles3/26.jpg";
+    document.getElementById("hint-img").replaceChildren(tile);
+}
