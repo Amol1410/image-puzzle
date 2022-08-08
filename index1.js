@@ -13,19 +13,15 @@ window.onload = () => {
 
             //append image with id 0-0
             let tile = document.createElement("img");
-            // tile.id = r.toString() + "-" + c.toString();
             tile.src = "./tiles1/" + tilesOrder.shift() + ".jpg";
             document.getElementById("board").append(tile);
     
         }
     }
-    // let tile = document.createElement("img");
-    // // tile.id = r.toString() + "-" + c.toString();
-    // tile.src = "./tiles/4x4.png";
 }
 
 function reshuffle(){
-    tilesOrder = ["5","1","7","6","8","3","9","4","2"];
+    tilesOrder = ["5","1","7","8","6","3","9","4","2"];
 //     tilesOrder = ["2","1","3","4","5","6","7","8","9"];
     
     document.getElementById("board").replaceChildren();
@@ -139,4 +135,9 @@ function dragEnd() {
         }
 
     }
+}
+function showHint(){
+    let tile = document.createElement("img");
+    tile.src = "./tiles1/10.jpg";
+    document.getElementById("hint-img").replaceChildren(tile);
 }
